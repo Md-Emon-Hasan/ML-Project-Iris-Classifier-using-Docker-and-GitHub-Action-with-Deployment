@@ -3,5 +3,5 @@ services:
     name: iris-classifier
     env: python
     buildCommand: ""
-    startCommand: gunicorn app.main:app -b 0.0.0.0:$PORT
+    startCommand: gunicorn main:app -b 0.0.0.0:$PORT
     plan: free
