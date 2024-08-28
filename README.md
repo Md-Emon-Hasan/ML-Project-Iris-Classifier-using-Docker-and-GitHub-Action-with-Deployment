@@ -1,8 +1,8 @@
 # 🌸 Iris Flower Classification System
 
-Welcome to the **Iris Flower Classification System** repository! This project uses machine learning to classify Iris flowers into different species based on their features. It incorporates Docker for containerization and GitHub Actions for continuous integration and deployment (CI/CD).
+Welcome to the **Iris Flower Classification System** repository! This project leverages machine learning to classify Iris flowers into different species based on their features. It incorporates Docker for containerization, GitHub Actions for CI/CD, and deployment on Render for live hosting.
 
-![355822492-aa068ef3-dfd8-4406-a39a-7646c3aba7af](https://github.com/user-attachments/assets/6a1dfaf7-0fa9-4fbf-8092-e37f08da7b20)
+![355822492-aa068ef3-dfd8-4406-a39a-7646c3aba7af](https://github.com/user-attachments/assets/c44208f7-044a-4164-995e-1e853e885941)
 
 ## 📋 Contents
 
@@ -11,6 +11,7 @@ Welcome to the **Iris Flower Classification System** repository! This project us
 - [Getting Started](#getting-started)
 - [Live Demo](#live-demo)
 - [Docker and CI/CD](#docker-and-ci-cd)
+- [Deploy on Render](#deploy-on-render)
 - [Best Practices](#best-practices)
 - [FAQ](#faq)
 - [Troubleshooting](#troubleshooting)
@@ -26,7 +27,7 @@ Welcome to the **Iris Flower Classification System** repository! This project us
 
 ## 📖 Introduction
 
-This repository showcases a machine learning project aimed at classifying Iris flowers into different species. The project leverages Docker for containerization and GitHub Actions for CI/CD to ensure seamless deployment and testing.
+This repository showcases a machine learning project aimed at classifying Iris flowers into different species. The project leverages Docker for containerization, GitHub Actions for CI/CD, and is deployed on Render for live demonstration.
 
 ---
 
@@ -38,6 +39,7 @@ This repository showcases a machine learning project aimed at classifying Iris f
 - **Deployment:** Implementing the model as a web service using Flask.
 - **Docker:** Containerizing the application for consistent deployment across environments.
 - **CI/CD:** Automating tests and deployments with GitHub Actions.
+- **Render:** Deploying the application on Render for live access.
 
 ---
 
@@ -86,7 +88,7 @@ To get started with this project, follow these steps:
 
 ## 🎉 Live Demo
 
-Check out the live version of the Iris Flower Classification app [here](https://iris-classifier-using-flask-with-docker.onrender.com).
+Check out the live version of the Iris Flower Classification app [here](https://iris-classifier-using-docker-and-github.onrender.com).
 
 ---
 
@@ -122,6 +124,23 @@ This project uses GitHub Actions for continuous integration and deployment. Each
 - **Build and Deploy:** Builds the Docker image and deploys the application to a cloud platform (e.g., Render, Heroku).
 
 You can find the CI/CD workflow file in `.github/workflows/ci-cd.yml`.
+
+---
+
+## 🌐 Deploy on Render
+
+To deploy this application on Render, follow these steps:
+
+1. **Sign up for Render:** Visit [Render](https://render.com) and sign up for an account.
+
+2. **Create a new Web Service:** 
+   - Select "New Web Service" from your Render dashboard.
+   - Connect your GitHub repository.
+   - Select your desired branch (e.g., `main`) and set up the build and runtime settings.
+
+3. **Deploy:** Render will automatically build and deploy your application. Once the deployment is successful, your application will be live.
+
+4. **Access your live app:** Your application will be accessible via a Render-generated URL.
 
 ---
 
@@ -201,6 +220,7 @@ Explore these resources for more insights into Docker, CI/CD, and machine learni
 
 - **Docker Official Documentation:** [docs.docker.com](https://docs.docker.com/)
 - **GitHub Actions Documentation:** [docs.github.com](https://docs.github.com/en/actions)
+- **Render Documentation:** [render.com/docs](https://render.com/docs)
 - **Machine Learning Tutorials:** [Kaggle](https://www.kaggle.com/learn/overview)
 
 ---
